@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#A8C7FA</color>
+    <color name="colorPrimary">#FF6347</color>
     <color name="colorPrimarySecond">@color/colorPrimary</color>
-    <color name="colorSearch">#282A2C</color> <!--#3444D1 @color/itemBackground-->
-    <color name="colorOngoing">#FFB4AB</color> <!--FF8181-->
-    <color name="colorPrimaryDark">#00468A</color>
-    <color name="colorAccent">#A8C7FA</color> <!-- 818fff-->
+    <color name="colorSearch">#1F1F1F</color> <!--#3444D1 @color/itemBackground-->
+    <color name="colorOngoing">#FFAE9F</color> <!--FF8181-->
+    <color name="colorPrimaryDark">#BF4A35</color>
+    <color name="colorAccent">#FF6347</color> <!-- 818fff-->
 
-    <color name="primaryGrayBackground">#333537</color> <!--0f0f10 0E0E10 303135 2B2C30-->
-    <color name="primaryBlackBackground">#131314</color> <!--1C1C20 191a1f 19181E 202125 1C1C20-->
-    <color name="iconGrayBackground">#282A2C</color> <!--141419 202125-->
-    <color name="boxItemBackground">#1E1F20</color> <!-- 17171B 1B1B20-->
+    <color name="primaryGrayBackground">#1F1F1F</color> <!--0f0f10 0E0E10 303135 2B2C30-->
+    <color name="primaryBlackBackground">#000000</color> <!--1C1C20 191a1f 19181E 202125 1C1C20-->
+    <color name="iconGrayBackground">#262626</color> <!--141419 202125-->
+    <color name="boxItemBackground">#171717</color> <!-- 17171B 1B1B20-->
 
-    <color name="textColor">#E3E3E3</color> <!--FFF-->
-    <color name="grayTextColor">#C4C7C5</color> <!-- 5e5f62-->
-    <color name="grayShimmer">#282A2C</color> <!-- 5e5f62-->
+    <color name="textColor">#F2F2F2</color> <!--FFF-->
+    <color name="grayTextColor">#C4C4C4</color> <!-- 5e5f62-->
+    <color name="grayShimmer">#262626</color> <!-- 5e5f62-->
 
     <color name="searchColorTransparent">#1AFFFFFF</color> <!--DADADA-->
     <color name="transparent">#00000000</color>
@@ -27,47 +27,47 @@
     <color name="whiteText">#FFF</color>
     <color name="blackText">#000</color>
 
-    <color name="progressBackgroundColor">#33A8C7FA</color>
+    <color name="progressBackgroundColor">#33FF6347</color>
 
-    <color name="dubColorText">#D3E3FD</color> <!--3b65f5 f18c82 8294F1-->
-    <color name="amoledModeLight">#121213</color>
+    <color name="dubColorText">#FFE3DE</color> <!--3b65f5 f18c82 8294F1-->
+    <color name="amoledModeLight">#000000</color>
 
-    <color name="dubColorBg">#00468A</color>
-    <color name="subColorText">#FFDAD6</color> <!--F53B66 FA3D79-->
-    <color name="subColorBg">#93000A</color>
-    <color name="typeColorText">#D3E3FD</color>
-    <color name="typeColorBg">#3E4759</color>
+    <color name="dubColorBg">#853325</color>
+    <color name="subColorText">#FFB59D</color> <!--F53B66 FA3D79-->
+    <color name="subColorBg">#571F14</color>
+    <color name="typeColorText">#F2F2F2</color>
+    <color name="typeColorBg">#262626</color>
 
     <!--
     <color name="ratingColor">#4C3115</color>
     <color name="ratingColorBg">#FFA662</color>
     -->
 
-    <color name="adultColor">#FFB4AB</color> <!-- same as sub color -->
+    <color name="adultColor">#FFAE9F</color> <!-- same as sub color -->
 
     <color name="video_ripple">#80FFFFFF</color>
     <color name="video_button_ripple">#32FFFFFF</color>
 
     <color name="black_overlay">#66000000</color>
-    <color name="darkBarTransparent">#C0131314</color>
-    <color name="skipOpTransparent">#4D131314</color>
-    <color name="darkBar">#131314</color>
-    <color name="videoProgress">#66A8C7FA</color> <!--66B5B5B5-->
+    <color name="darkBarTransparent">#C0000000</color>
+    <color name="skipOpTransparent">#4D000000</color>
+    <color name="darkBar">#000000</color>
+    <color name="videoProgress">#66FF6347</color> <!--66B5B5B5-->
     <!--<color name="videoCache">#663D50FA</color>--> <!--66B5B5B5-->
 
-    <color name="iconColor">#C4C7C5</color>
+    <color name="iconColor">#C4C4C4</color>
 
     <!-- <color name="usedStorageColor">?attr/white</color>#fff-->
     <!-- <color name="freeStorageColor">?attr/grayTextColor</color> #676767-->
 
     <!--Light Mode -->
-    <color name="lightPrimaryGrayBackground">#F0F4F9</color>
-    <color name="lightBitDarkerGrayBackground">#FFFFFF</color>
-    <color name="lightGrayBackground">#E9EEF6</color>
-    <color name="lightItemBackground">#E9EEF6</color>
-    <color name="lightTextColor">#1F1F1F</color>
-    <color name="lightGrayTextColor">#444746</color>
-    <color name="lightIconColor">#444746</color>
+    <color name="lightPrimaryGrayBackground">#1F1F1F</color>
+    <color name="lightBitDarkerGrayBackground">#000000</color>
+    <color name="lightGrayBackground">#171717</color>
+    <color name="lightItemBackground">#171717</color>
+    <color name="lightTextColor">#F2F2F2</color>
+    <color name="lightGrayTextColor">#C4C4C4</color>
+    <color name="lightIconColor">#C4C4C4</color>
 
     <!--Dracula Theme-->
     <color name="DraculaPrimaryGrayBackground">#414450</color>
