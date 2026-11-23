@@ -57,5 +57,6 @@
         android:indeterminate="true"
         android:indeterminateTint="?attr/colorPrimary"
         android:progressTint="?attr/colorPrimary"
+        android:progressBackgroundTint="@color/primaryGrayBackground"
         android:visibility="gone" />
 </LinearLayout>

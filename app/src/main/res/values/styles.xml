@@ -73,6 +73,31 @@
         <item name="download_icon_scale">1.0</item>
 
         <item name="cpv_focusBorderColor">?attr/white</item>
+
+        <!-- Pixel / Material You: tonal surfaces and large rounded shapes -->
+        <item name="colorSurface">@color/primaryBlackBackground</item>
+        <item name="colorOnSurface">@color/textColor</item>
+        <item name="colorSurfaceVariant">@color/iconGrayBackground</item>
+        <item name="colorOnSurfaceVariant">@color/grayTextColor</item>
+        <item name="colorPrimaryContainer">@color/colorPrimaryDark</item>
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.Pixel.Small</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.Pixel.Medium</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.Pixel.Large</item>
+    </style>
+
+    <style name="ShapeAppearance.Pixel.Small" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="ShapeAppearance.Pixel.Medium" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <style name="ShapeAppearance.Pixel.Large" parent="ShapeAppearance.Material3.LargeComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">28dp</item>
     </style>
 
     <style name="AppThemeTvOverlay">
@@ -541,6 +566,7 @@
 
     <style name="AppMaterialButtonStyle" parent="Widget.MaterialComponents.Button">
         <item name="android:fontFamily">@font/google_sans</item>
+        <item name="cornerRadius">28dp</item>
     </style>
 
     <style name="Theme.Widget.Tabs" parent="Widget.MaterialComponents.TabLayout.Colored">
